@@ -1,2 +1,9 @@
-# Data-projects
-This repository contains examples of data projects I did or I am currently working on, using R and Python
+ This folder contains the files of my new data project that involves the collection and analysis of Steam reviews of the game "No Man's Sky".
+
+### 1. Data collection - using [steamreviews API](https://github.com/woctezuma/download-steam-reviews)
+
+
+### 2. Data processing - using Jupyter Notebook
+
+
+### 3. Data visualization - using Tableau
