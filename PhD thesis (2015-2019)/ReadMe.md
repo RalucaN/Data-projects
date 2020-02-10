@@ -4,4 +4,4 @@ This folder includes information about my PhD thesis
 
 **Puzzle**
 
-![](https://drive.google.com/open?id=1GHak-hB-2iniogf64paloSBku9MVpF3z)
+![](https://drive.google.com/file/d/1GHak-hB-2iniogf64paloSBku9MVpF3z/view?usp=sharing)
