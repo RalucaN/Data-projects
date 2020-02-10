@@ -4,4 +4,4 @@ This folder includes information about my PhD thesis
 
 **Puzzle**
 
-![](https://drive.google.com/file/d/1GHak-hB-2iniogf64paloSBku9MVpF3z/view?usp=sharing)
+![](https://github.com/RalucaN/Data-projects/PhD thesis (2015-2019)/thesis_puzzle.jpg)
