@@ -1,4 +1,4 @@
-### Graphs for Paper 2
+### R code to create the plots from Graphs folder
 
 #Loading packages
 library(readxl) 
