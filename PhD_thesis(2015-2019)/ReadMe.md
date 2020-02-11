@@ -10,7 +10,6 @@ This folder includes information about my PhD thesis
 - Is the recent emergence of authoritarian countries, such as China, as leading economic powers and increasingly engaged in the developing world, related to the ‘democratic recession’ process experienced by certain developing countries? 
 - Is the rise of authoritarian powers leading to authoritarian diffusion in the developing world as economic linkages increase?
 
-**Argument**
 
 **Methodological approach:** multi-level investigation of the diffusion process - meant to provide a complex picture on the process and could help evaluate at what level does diffusion occurs (individual or institutional level).
 
