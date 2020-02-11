@@ -1,1 +1,5 @@
-This is my first text analysis project, dating back to June 2016, when I was in the first year of the PhD programme. It represents a example of application of different content and dictionary-based methods of analysis to the 2016 Democratic candidate debate of the US presidential elections. It was submitted for the completion of the "Quantitative text analysis" postgraduate course at Trinity College Dublin, and received the grade "A-"
+* This is my first text analysis project, dating back to June 2016, when I was in the first year of the PhD programme. 
+
+* It represents an example of application of different content and dictionary-based methods of analysis to the 2016 Democratic candidate debate of the US presidential elections. 
+
+* It was submitted for the completion of the "Quantitative text analysis" postgraduate course at Trinity College Dublin, and received the grade "A-"
