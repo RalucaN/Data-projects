@@ -13,5 +13,5 @@ This folder includes information about my PhD thesis
 
 **Methodological approach:** multi-level investigation of the diffusion process - meant to provide a complex picture on the process and could help evaluate at what level does diffusion occurs (individual or institutional level).
 
-![](https://raw.githubusercontent.com/RalucaN/Data-projects/master/PhD_thesis(2015-2019)/three_papers.png)
+          ![](https://raw.githubusercontent.com/RalucaN/Data-projects/master/PhD_thesis(2015-2019)/three_papers.png)
 
