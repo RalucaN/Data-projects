@@ -2,7 +2,7 @@ This folder includes information about my PhD thesis
 
 **Title**: Authoritarian diffusion at a distance? China’s impact on levels of and on citizens’ support for liberal-democracy in Sub-Saharan African states
 
-**The puzzle that my research attempts to investigate:**
+**Puzzle:**
 
 ![](https://raw.githubusercontent.com/RalucaN/Data-projects/master/PhD_thesis(2015-2019)/thesis_puzzle.png)
 
@@ -11,4 +11,8 @@ This folder includes information about my PhD thesis
 - Is the rise of authoritarian powers leading to authoritarian diffusion in the developing world as economic linkages increase?
 
 **Argument**
-**Methodological approach:**
+
+**Methodological approach:** multi-level investigation of the diffusion process - meant to provide a complex picture on the process and could help evaluate at what level does diffusion occurs (individual or institutional level).
+
+![](https://raw.githubusercontent.com/RalucaN/Data-projects/master/PhD_thesis(2015-2019)/three_papers.png)
+
