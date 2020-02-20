@@ -1,0 +1,13 @@
+My observations:
+1. Is X the Index of the dataset?
+2. Should we consider the following variables as:
+- Categorical:
+Zone1Position, Zone2Position, Zone3Position, SKU, Zone1_Row_Num, Zone1_Col_Num, Zone2_Row_Num, Zone2_Col_num, Zone3_Row_Num, Zone3_Col_Num, Zone1_AreaZone3_Area, Block_Num, Block_Position, Block_Orientation, Result_Type
+
+-Binary:
+Zone1_Left_Block_Bin, Zone1_Right_Block_Bin
+
+
+3. The percentage of missing data is under 1% -> very low
+
+
