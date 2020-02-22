@@ -1,5 +1,5 @@
 My observations:
-1. Is X the Index of the dataset?
+1. What is X? the index of the dataset?
 2. Should we consider the following variables as:
 - Categorical:
 Zone1Position, Zone2Position, Zone3Position, SKU, Zone1_Row_Num, Zone1_Col_Num, Zone2_Row_Num, Zone2_Col_num, Zone3_Row_Num, Zone3_Col_Num, Zone1_AreaZone3_Area, Block_Num, Block_Position, Block_Orientation, Result_Type
@@ -8,6 +8,23 @@ Zone1Position, Zone2Position, Zone3Position, SKU, Zone1_Row_Num, Zone1_Col_Num, 
 Zone1_Left_Block_Bin, Zone1_Right_Block_Bin
 
 
-3. The percentage of missing data is under 1% -> very low
+3. The percentage of missing data is under 1%. 
+- Why there are missing values in the path of some products?
+Solution - these could be inputted based on the rules that a product follows (Z- zone, R- row, C- column, P - pallet):
+a) (Z1R1C1 or Z1R1C2) - (Z2R1C1) - P1:(Z3R1C1, Z3R1C2 or Z3R2C1)
+b) (Z1R1C3 or Z1R1C4) - (Z2R1C2) - P2:(Z3R1C2, Z3R1C3 or Z3R2C3)
+c) (Z1R2C1 or Z1R2C2) - (Z2R2C1) - P2:(Z3R1C1, Z3R1C2 or Z3R2C1)
+d) (Z1R2C3 or Z1R2C4) - (Z2R2C2) -
+
+
+Questions:
+- What is block position?
+
+Type of controls:
+- humidity
+- temperature
+- duration
+
+
 
 
