@@ -16,11 +16,14 @@
 * <i>If yes, how can it be characterized?</i>
 <br>
 
-<b>Theoretical motivation</b>:
+<b>Motivation</b>:
+* 
+*
 <br>
 
 <b>Data</b>: 
-* includes debate speaches from 2 influential personalities from the contemporary US Democratic Party: Hillary Clinton and Bernie Sanders
+* Uses the transcript of the last internal debate of the Democratic Party's candidates from 14th of April 2016 (Source: American Presidential Project)
+* Covers two influential personalities from the contemporary US Democratic Party: Hillary Clinton and Bernie Sanders
 <br>
 
 <b>Methods</b>:
