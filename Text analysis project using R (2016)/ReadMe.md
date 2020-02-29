@@ -6,6 +6,7 @@
 <br>
 <b>Title of the paper</b>: Profiling electoral candidates: an automated content analysis of a 2016 presidential debate of US Democratic Party’s candidates
 <br>
+<br>
 
 <b>Issue of interest</b>: Creating the profile of the US democratic candidate for the 2016 presidential election
 <br>
