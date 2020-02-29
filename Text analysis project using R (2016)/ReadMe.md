@@ -1,5 +1,5 @@
 <b>Disclaimers</b>:
-* This is my first text analysis project, dating back to June 2016, when I was in the first year of the PhD programme. Thus, the writing skills are representative of that time and has improved substantially until my graduation from the programme. No updates have been made to the paper ever since.
+* This is my first text analysis project, dating back to June 2016, when I was in the first year of the PhD programme. Thus, the writing skills are representative of that time and have improved substantially until today. No updates have been made to the paper ever since.
 * It represents an example of application of different content and dictionary-based methods of analysis to the 2016 Democratic candidate debate of the US presidential elections. Details about the methodology and findings are available below. 
 * <i>Purpose and outcome</i>: It was submitted for the completion of the "Quantitative text analysis" postgraduate course at Trinity College Dublin, and received the grade "A-".
 <br>
