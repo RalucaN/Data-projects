@@ -14,16 +14,16 @@
 
 <b>Research questions</b>:
 * <i>Can we talk about a general profile of a US democrat politician during the 2016 presidential elections?</i>
-* <i>If yes, how can it be characterized?</i>
+* <i>If yes, what are the features of a 2016 US democrat candidate for presidency?</i>
 <br>
 
 <b>Motivation</b>:
-* <i>for choosing the data</i>: at the time of this investigation, the debate from 14th of April 2016, was the most recent one recorded of  the two major democratic candidates running for the 2016 US presidential election.
+* <i>for choosing the data</i>: at the time of this investigation, this was the most recent debate engaging two major democratic candidates running for the 2016 US presidential election.
 * page 4
 <br>
 
 <b>Data</b>: 
-* Uses the transcript of the last internal debate of the Democratic Party's candidates from 14th of April 2016. It took place in Brooklyn, New York and was moderated by the CNN reporter Wolf Blitzer while Dana Bash, also from CNN and Errol Louis, from NY1 were panelists (Source: American Presidential Project).
+* Includes the transcript of the last internal debate of the Democratic Party's candidates from 14th of April 2016. It took place in Brooklyn, New York and was moderated by the CNN reporter Wolf Blitzer while Dana Bash, also from CNN and Errol Louis, from NY1 were panelists (Source: American Presidential Project).
 * Covers two influential personalities from the contemporary US Democratic Party: Hillary Clinton and Bernie Sanders.
 <br>
 
