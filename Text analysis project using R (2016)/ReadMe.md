@@ -34,11 +34,26 @@
 <br>
 
 <b>Description of the text corpus</b>:
-* 
-*
+* contains 399 documents (speech acts) with 16999 words spoken
+* top 10 frequent features (word stems):
+
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **word steams** | senat | secretari | go | peopl | thank | Clinton | presid | say | think | Well |
+| **frequency** | 150 | 113 | 111 | 86 | 81 | 76 | 72 | 71 | 68 | 61 |
+
 <br>
 
 <b>Software and package/library used</b>:
 * The whole analysis has been performed in R, using the functions available in the [quanteda package](https://quanteda.io/)
 *
+<br>
+
+<b>Data analysis steps</b>:
+1. Data collection - data obtained from the online database of [The American Presidency Project](https://www.presidency.ucsb.edu/documents/democratic-candidates-debate-brooklyn-new-york) and exported into a txt file.
+2. Data pre-processing - identified and manually removed the following non-lexical remarks in brackets: “[applause]”, “[laughter]”, “[inaudible]”, “[booing]”, “[cheering and applause]”, “[crosstalk]”, “[cheering]” and “[commercial break]” because they are not relevant for my analysis
+Afterwards, I imported the document in R using the textfile() command from the Quanteda package and segmented the whole text by speaker. I have also performed additional cleaning actions to remove all the unwanted spaces and colons from the tags. Finally, I deleted the “Member” speaker because it indicates a vocalized protest from the audience which does not influence in any way the content of the debate.
+3. Data exploration
+4. Data analysis
+5. Extension
+
 <br>
