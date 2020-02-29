@@ -17,7 +17,7 @@
 <br>
 
 <b>Motivation</b>:
-* <i>for choosing the data</i>: at the time of this investigation, the debate from 14th of April 2016, was the most recent one recorded between the democratic candidates running for the 2016 US presidential election.
+* <i>for choosing the data</i>: at the time of this investigation, the debate from 14th of April 2016, was the most recent one recorded of  the two major democratic candidates running for the 2016 US presidential election.
 * page 4
 <br>
 
