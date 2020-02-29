@@ -37,10 +37,6 @@
 * contains 399 documents (speech acts) with 16999 words spoken
 * top 10 frequent features (word stems):
 
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
-**word steams** | senat | secretari | go | peopl | thank | Clinton | presid | say | think | Well 
-**frequency** | 150 | 113 | 111 | 86 | 81 | 76 | 72 | 71 | 68 | 61 
-
 <br>
 
 <b>Software and package/library used</b>:
