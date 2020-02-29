@@ -3,3 +3,13 @@
 * It represents an example of application of different content and dictionary-based methods of analysis to the 2016 Democratic candidate debate of the US presidential elections. 
 
 * It was submitted for the completion of the "Quantitative text analysis" postgraduate course at Trinity College Dublin, and received the grade "A-"
+
+
+<b>Issue of interest</b>:
+
+<b>Data</b>: 
+
+<b>Methods</b>:
+* lexical diversity 
+* contextual key concepts
+* readability
