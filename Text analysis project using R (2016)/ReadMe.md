@@ -11,7 +11,7 @@
 <br>
 
 <b>Research questions</b>:
-* <i>Can we talk about a general profile of a US democrat politician?</i>
+* <i>Can we talk about a general profile of a US democrat politician during the 2016 presidential elections?</i>
 * <i>If yes, how can it be characterized?</i>
 <br>
 
@@ -19,6 +19,7 @@
 <br>
 
 <b>Data</b>: 
+* includes debate speaches from 2 influential personalities from the contemporary US Democratic Party: Hillary Clinton and Bernie Sanders
 <br>
 
 <b>Methods</b>:
