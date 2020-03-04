@@ -1,0 +1,14 @@
+An item can have one of the following four routes  (Z- zone, R- row, C- column, Pos - position, P- pallet)
+
+a) (Z1R1C1 or Z1R1C2) - (Z2R1C1) - P1:(Z3R1C1, Z3R1C2 or Z3R2C1)
+(Z1Pos1 or Z1Pos2) - (Z2Pos1) - P1:(Z3Pos1, Z3Pos2 or Z3Pos4)
+
+b) (Z1R1C3 or Z1R1C4) - (Z2R1C2) - P2:(Z3R1C2, Z3R1C3 or Z3R2C3)
+(Z1Pos3 or Z1Pos4) - (Z2Pos2) - P2:(Z3Pos2, Z3Pos3 or Z3Pos6)
+
+c) (Z1R2C1 or Z1R2C2) - (Z2R2C1) - P2:(Z3R1C1, Z3R2C1 or Z3R2C2)
+(Z1Pos5 or Z1Pos6) - (Z2Pos3) - P2:(Z3Pos1, Z3Pos4 or Z3Pos5)
+
+d) (Z1R2C3 or Z1R2C4) - (Z2R2C2) - P1:(Z3R1C3, Z3R2C2 or Z3R2C3)
+(Z1Pos7 or Z1Pos8) - (Z2Pos4) - P1:(Z3Pos3, Z3Pos5 or Z3Pos6)
+
