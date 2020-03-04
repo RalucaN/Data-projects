@@ -1,5 +1,0 @@
-1. What is X?
-2. What is block position?
-3. What is block orientation?
-4. what is block number? why it is relevant?
-5. Given the path: (Z1R1C1 or Z1R1C2) - (Z2R1C1) - P1:(Z3R1C1, Z3R1C2 or Z3R2C1). Is there a rule based on which it is decided when an item goes to Z3R1C1, Z3R1C2 or Z3R2C1?
