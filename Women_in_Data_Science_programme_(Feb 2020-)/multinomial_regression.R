@@ -1,5 +1,5 @@
 library(nnet)
-Data_processed <- read_csv("Data_processed.csv")
+Data_processed <- read_csv("Women_in_Data_Science_programme_(Feb 2020-)/Data_processed.csv")
 Data_processed$Result_Type <- factor(Data_processed$Result_Type, ordered = FALSE )
 Data_processed$Result_Type <- relevel(Data_processed$Result_Type, ref = "PASS")
 
