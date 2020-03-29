@@ -10,17 +10,25 @@ Data_processed <- read_csv("Women_in_Data_Science_programme_(Feb 2020-)/Data_pro
 set.seed(101)
 
 #splitting the sample
+Data_processed$Result_Type <- factor(Data_processed$Result_Type, ordered = FALSE )
+Data_processed$Result_Type <- relevel(Data_processed$Result_Type, ref = "PASS")
 sample_size = floor(0.8*nrow(Data_processed))
 train_ind = sample(seq_len(nrow(Data_processed)),size = sample_size)
 train =Data_processed[train_ind,]
 test=Data_processed[-train_ind,]
+train$Zone1_Area <- factor(train$Zone1_Area)
+train$Zone3_Area <- factor(train$Zone3_Area)
+train$SKU <- factor(train$SKU)
+
+
+
+
+
+
 
 train$Result_Type <- factor(train$Result_Type)
 
-train$X<-NULL
-test$X<-NULL
-test$Date<-NULL
-train$Date<-NULL
+
 
 boruta_output <- Boruta(Result_Type ~ ., data=na.omit(train), doTrace=0) 
 names(boruta_output)
@@ -48,9 +56,7 @@ rpartImp2 <- varImp(rPartMod2)
 print(rpartImp2)
 
 
-train$Zone1_Area <- factor(train$Zone1_Area)
-train$Zone3_Area <- factor(train$Zone3_Area)
-train$SKU <- factor(train$SKU)
+
 
 fit_rf = randomForest(Result_Type~., data=na.omit(train))
 importance(fit_rf)
@@ -106,14 +112,41 @@ print(shortlistedVars)
 
 #decision tree 1
 
-rf1 = randomForest(Result_Type ~ Zone1Position + Zone2Position + Zone1_Area + SKU + 
+
+model_rf <- train(Result_Type ~ Zone1Position + Zone2Position + Zone1_Area + SKU + 
+                 Zone1_Col_Num + Zone3Position + Zone2_Col_num + Zone1_Left_Block_Bin + 
+                 Zone1_Right_Block_Bin + Zone3_Area + Zone3_Col_Num + Zone1_In_Zone3_Out_Dur + 
+                 Zone1_Row_Num + Zone2_Row_Num + Block_Position + Zone3_Temp_Range + 
+                 Zone3_Temp_Max + Zone3_Temp_Min + Block_Num + Zone3_Humidity_Range + 
+                 Zone3_Humidity_Max + Zone3_Humidity_Min + Zone3_Row_Num + 
+                 Zone3_Humidity_Avg, data = train, method = 'rf',
+               trControl = trainControl(method = 'cv',number = 3))
+
+
+rf1 <- randomForest(Result_Type ~ Zone1Position + Zone2Position + Zone1_Area + SKU + 
                      Zone1_Col_Num + Zone3Position + Zone2_Col_num + Zone1_Left_Block_Bin + 
                      Zone1_Right_Block_Bin + Zone3_Area + Zone3_Col_Num + Zone1_In_Zone3_Out_Dur + 
                      Zone1_Row_Num + Zone2_Row_Num + Block_Position + Zone3_Temp_Range + 
                      Zone3_Temp_Max + Zone3_Temp_Min + Block_Num + Zone3_Humidity_Range + 
                      Zone3_Humidity_Max + Zone3_Humidity_Min + Zone3_Row_Num + 
-                     Zone3_Humidity_Avg, data=na.omit(train), ntree = 500, mtry = 6, 
+                     Zone3_Humidity_Avg, data=train, ntree = 3,
                    importance = TRUE)
 
-rf1_pred<- predict(rf1, data=na.omit(test), type = "class")
-mean(rf1_pred == na.omit(test$Result_Type))
+rf1_pred<- predict(rf1, data=test, type = "class")
+mean(rf1_pred == test$Result_Type)
+
+
+library(rpart)
+library(rpart.plot)
+
+tm <- rpart(Result_Type ~ Zone1Position + Zone2Position + Zone1_Area + SKU + 
+              Zone1_Col_Num + Zone3Position + Zone2_Col_num + Zone1_Left_Block_Bin + 
+              Zone1_Right_Block_Bin + Zone3_Area + Zone3_Col_Num + Zone1_In_Zone3_Out_Dur + 
+              Zone1_Row_Num + Zone2_Row_Num + Block_Position + Zone3_Temp_Range + 
+              Zone3_Temp_Max + Zone3_Temp_Min + Block_Num + Zone3_Humidity_Range + 
+              Zone3_Humidity_Max + Zone3_Humidity_Min + Zone3_Row_Num + 
+              Zone3_Humidity_Avg, train, method = "class")
+
+tm_pred<- predict(tm, data=test, type = "class")
+table_mat <- table(test$Result_Type, tm_pred)
+accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
