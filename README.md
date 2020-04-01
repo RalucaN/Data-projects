@@ -19,6 +19,6 @@ This repository contains examples of data projects I completed or I am currently
   - investigates the impact of the Chinese economic enaggement on levels of and support for democracy in Sub-Saharan African countries by proving a first test of authoritarian diffusion at a distance;
   - employs a quantitative research methodology with a variety of statistical and machine learning models, such as: BFA MCMC algorithm, Linear Mixed Effects Model, Ordered Logistic Regression and Linear Regression with AR(1) Prais Winsten correction and panel-corrected standard errors (PCSE) 
   
-<b>2. 9Text analysis project using R](https://github.com/RalucaN/Data-projects/tree/master/Text%20analysis%20project%20using%20R%20(2016)) (2016 and 2020 updates):</b>
+<b>2. [Text analysis project using R](https://github.com/RalucaN/Data-projects/tree/master/Text%20analysis%20project%20using%20R%20(2016)) (2016 and 2020 updates):</b>
 
 
