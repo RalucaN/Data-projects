@@ -10,7 +10,7 @@ This repository contains examples of data projects I completed or I am currently
 
 <b>2. [Women in Data Science programme (Feb-April 2020)](https://github.com/RalucaN/Data-projects/tree/master/Women_in_Data_Science_programme_(Feb%202020-)):</b>
   - an example of <b>Decision Tree</b> model application;
-  - a team data science project, part of Accenture's 6-week programme, ["Women in Data Science Accelerator"](https://www.accenture.com/ie-en/careers/women-in-data-science?src=SOMS)
+  - a team data science project, part of Accenture's 6-week programme, ["Women in Data Science Accelerator"](https://www.accenture.com/ie-en/careers/women-in-data-science?src=SOMS);
   - it implied conducting a root cause analysis as a Proof of Concept for a defect detection model;
   - it uses production data of a multinational Manufacturing Company, experiencing high defect rates;
   - my individual tasks inside the team included the profilling/cleaning and modelling of the data;
