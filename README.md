@@ -11,7 +11,8 @@ This repository contains examples of data projects I completed or I am currently
   - a team data science project, part of Accenture's 6-week programme, ["Women in Data Science Accelerator"](https://www.accenture.com/ie-en/careers/women-in-data-science?src=SOMS)
   - it implied conducting a root cause analysis as a Proof of Concept for a defect detection model;
   - it uses production data of a multinational Manufacturing Company, experiencing high defect rates which causing massive costs;
-  - my individual tasks inside the team included the profilling/cleaning and modelling of the data.
+  - my individual tasks inside the team included the profilling/cleaning and modelling of the data;
+  - for data profilling, I used [Tableau](https://github.com/RalucaN/Data-projects/tree/master/Women_in_Data_Science_programme_(Feb%202020-)/Plots%20and%20observations) (e.g. highlight tables), [R](https://github.com/RalucaN/Data-projects/tree/master/Women_in_Data_Science_programme_(Feb%202020-)/multinomial%20regression) (multinomial regression), [Jupyter Notebook](https://github.com/RalucaN/Data-projects/blob/master/Women_in_Data_Science_programme_(Feb%202020-)/Data_cleaning.ipynb) (pandas and numpy to remove duplicates, inpute missing values, remove redundant data columns/variables)
 
 ## Completed projects:
 <b>1. [PhD thesis (2015-2019)](https://github.com/RalucaN/Data-projects/tree/master/PhD_thesis(2015-2019)): </b> 
@@ -19,6 +20,6 @@ This repository contains examples of data projects I completed or I am currently
   - investigates the impact of the Chinese economic enaggement on levels of and support for democracy in Sub-Saharan African countries by proving a first test of authoritarian diffusion at a distance;
   - employs a quantitative research methodology with a variety of statistical and machine learning models, such as: BFA MCMC algorithm, Linear Mixed Effects Model, Ordered Logistic Regression and Linear Regression with AR(1) Prais Winsten correction and panel-corrected standard errors (PCSE) 
   
-<b>2. [Text analysis project using R](https://github.com/RalucaN/Data-projects/tree/master/Text%20analysis%20project%20using%20R%20(2016)) (2016 and 2020 updates):</b>
+<b>2. [Text analysis project using R (2016 and 2020 updates)](https://github.com/RalucaN/Data-projects/tree/master/Text%20analysis%20project%20using%20R%20(2016)) :</b>
 
 
