@@ -14,7 +14,7 @@ This repository contains examples of data projects I completed or I am currently
   - my individual tasks inside the team included the profilling/cleaning and modelling of the data.
 
 ## Completed projects:
-<b>1. PhD thesis (2015-2019): </b> 
+<b>1. [PhD thesis (2015-2019)](https://github.com/RalucaN/Data-projects/tree/master/PhD_thesis(2015-2019)): </b> 
   - presents the 3 chapters of my research project submitted to the Trinity College Dublin University in fulfilment of the requirements for the Doctor of Philosophy in Political Science;
   - investigates the impact of the Chinese economic enaggement on levels of and support for democracy in Sub-Saharan African countries by proving a first test of authoritarian diffusion at a distance;
   - employs a quantitative research methodology with a variety of statistical and machine learning models, such as: BFA MCMC algorithm, Linear Mixed Effects Model, Ordered Logistic Regression and Linear Regression with AR(1) Prais Winsten correction and panel-corrected standard errors (PCSE) 
