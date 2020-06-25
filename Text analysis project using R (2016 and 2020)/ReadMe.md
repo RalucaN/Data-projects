@@ -14,7 +14,7 @@
 
 <b>Research questions</b>:
 * <i>Can we talk about a general profile of a US democrat politician during the 2016 presidential elections?</i>
-* <i>If yes, what are the features of a 2016 US democrat candidate for presidency?</i>
+* <i>If yes, what are the characteristics of a 2016 US democrat candidate for presidency?</i>
 <br>
 
 <b>Motivation</b>:
